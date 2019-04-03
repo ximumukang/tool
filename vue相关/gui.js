@@ -11,7 +11,7 @@ export default (model) => {
       vm.$el.parentNode.removeChild(vm.$el);
       vm.$destroy();
     })
-    // vm.$emit('open',options);
+    // vm.$emit('open',options); 
     return vm;
   }
 }
