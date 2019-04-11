@@ -1,11 +1,11 @@
-(```)
+```
   <keep-alive>
     <router-view v-if="$route.meta.keepAlive"></router-view>
   </keep-alive>
   <router-view v-if="!$route.meta.keepAlive"></router-view>
-(```)
+```
 
-(```)
+```
   {
     path: "journal",
     name: "门诊日志",
@@ -20,9 +20,9 @@
         "DataStatistics"
     )
   }
-(```)
+```
 
-(```)
+```
   var isBack = true;
   export default {
     beforeRouteEnter(to, from, next) {
@@ -56,4 +56,4 @@
       }
     }
   }
-(```)
+```
